@@ -14,9 +14,9 @@ set relativenumber "relative line numbers"
 set termguicolors "colorizes the terminal"
 set autoindent "autoindents"
 set tabstop=3 "sets the tabstop to 3"
-set softtabstop=3 "sets the soft tabstop to 3"
+" set softtabstop=3 /"sets the soft tabstop to 3"
 set shiftwidth=3 "sets the shiftwidth to 3"
-set smarttab "smart tab"
+" set smarttab /"smart tab"
 set nohlsearch "hides the search highlighting"
 set noerrorbells "no error bell"
 set nowrap "no text wrapping"
@@ -27,7 +27,6 @@ set scrolloff=3 "sets the scroll offset to 3"
 set showmatch "highlights matching brackets"
 set mouse=a "mouse support"
 syntax enable "enables syntax highlighting"
-set termguicolors
 
 
 if $PROFILE == 'nord'
