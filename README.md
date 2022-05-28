@@ -15,6 +15,9 @@ git clone --depth=1 https://github.com/kaem-e/barebones-vi.git
 mv ~/barebones-vi/.vimrc ~/.vimrc && mv ~/barebones-vi/.vim ~/.vim && rm -rf ~/barebones-vi 
 
 # For SysLinking configuration files keeping the git repo intact (use git pull to update automaically)
-ln ~/barebones-vi/.vimrc ~/.vimrc && ln ~/barebones-vi/.vim ~/.vim
+ln ~/barebones-vi/vim/.vimrc ~/.vimrc && ln ~/barebones-vi/vim/.vim ~/.vim
+
+# For Linking using stow (install gnu stow for your os first)
+cd barebones-vi && stow ./vim ~/.
 ```
 
