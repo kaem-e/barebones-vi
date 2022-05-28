@@ -1,0 +1,27 @@
+[submodule "vim/.vim/pack/plugins/start/NeoSolarized"]
+	path = vim/.vim/pack/plugins/start/NeoSolarized
+	url = https://github.com/overcache/NeoSolarized.git
+[submodule "vim/.vim/pack/plugins/start/vim-airline"]
+	path = vim/.vim/pack/plugins/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "vim/.vim/pack/plugins/start/vim-airline-themes"]
+	path = vim/.vim/pack/plugins/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "vim/.vim/pack/plugins/start/vim-commentary"]
+	path = vim/.vim/pack/plugins/start/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
+[submodule "vim/.vim/pack/plugins/start/goyo.vim"]
+	path = vim/.vim/pack/plugins/start/goyo.vim
+	url = https://github.com/junegunn/goyo.vim.git
+[submodule "vim/.vim/pack/plugins/start/vim-zenroom2"]
+	path = vim/.vim/pack/plugins/start/vim-zenroom2
+	url = https://github.com/amix/vim-zenroom2.git
+[submodule "vim/.vim/pack/plugins/start/ctrlp.vim"]
+	path = vim/.vim/pack/plugins/start/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim.git
+[submodule "vim/.vim/pack/plugins/start/vim-yankstack"]
+	path = vim/.vim/pack/plugins/start/vim-yankstack
+	url = https://github.com/maxbrunsfeld/vim-yankstack.git
+[submodule "vim/.vim/pack/plugins/start/vim-fugitive"]
+	path = vim/.vim/pack/plugins/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
