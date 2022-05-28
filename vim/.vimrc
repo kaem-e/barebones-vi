@@ -28,6 +28,10 @@ syntax enable
 "sets NeoSolarized-mod as the Colorscheme
 colorscheme NeoSolarized-Mod
 
+"use system clipboard"
+set clipboard+=unnamedplus
+
+
 
 " ____________ Cursor Settings ___________
 "Mode Settings
@@ -46,4 +50,26 @@ let &t_EI.="\e[3 q" "EI = NORMAL mode (ELSE)
 "  6 -> solid vertical bar
 
 
-set clipboard+=unnamedplus "use system clipboard"
+
+" ____________ Remaps ___________
+"nnoremap - mapping for normal mode
+"inoremap - mapping for insert mode
+"vnoremap - mapping for visual mode
+"cnoremap - mapping for colon mode
+
+"Sets " " (as in spacebar) as the <leader>
+let mapleader=" "
+
+nnoremap <leader>rv :source ~/.vimrc<CR> 
+nnoremap <C-q> q:
+nnoremap q :q<CR>
+nnoremap Q :wq<CR>
+nnoremap <leader>g :Goyo<CR>
+
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap {;<CR> {<CR>};<ESC>O
