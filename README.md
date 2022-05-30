@@ -9,7 +9,7 @@ Pulls the Repo from github
 ```sh
 # Clone the repo
 cd ~ # Change this to wherever you want to clone the repo for example cd ~/git or cd ~/git-repos
-git clone --recursive-submodules --depth=1 https://github.com/kaem-e/barebones-vi.git
+git clone --recurse-submodules --depth=1 https://github.com/kaem-e/barebones-vi.git
 ```
 
 ## Link config files

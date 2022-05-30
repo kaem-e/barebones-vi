@@ -25,3 +25,6 @@
 [submodule "vim/.vim/pack/plugins/start/vim-fugitive"]
 	path = vim/.vim/pack/plugins/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule "vim/.vim/pack/plugins/start/vim-multiple-cursors"]
+	path = vim/.vim/pack/plugins/start/vim-multiple-cursors
+	url = https://github.com/terryma/vim-multiple-cursors
