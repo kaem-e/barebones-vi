@@ -1,5 +1,7 @@
 # Base Vi(m) config 
 
+![Screenshot 2022-05-30 at 7 58 18 AM](https://user-images.githubusercontent.com/46230985/170909453-cbd98519-ad9c-4015-a5c4-ea90b0c6732d.png)
+
 Provides a basic config for Vi(m) in order to make it good enough for basic text editing purposes.
 
 ## Clone the repo
