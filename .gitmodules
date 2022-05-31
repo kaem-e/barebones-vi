@@ -28,3 +28,6 @@
 [submodule "vim/.vim/pack/plugins/start/vim-multiple-cursors"]
 	path = vim/.vim/pack/plugins/start/vim-multiple-cursors
 	url = https://github.com/terryma/vim-multiple-cursors
+[submodule "vim/.vim/pack/plugins/start/vim-hexokinase"]
+	path = vim/.vim/pack/plugins/start/vim-hexokinase
+	url = https://github.com/RRethy/vim-hexokinase.git

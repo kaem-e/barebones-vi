@@ -31,6 +31,16 @@ colorscheme NeoSolarized-Mod
 "use system clipboard"
 set clipboard+=unnamedplus
 
+"Hexokinase colour highlighting inside vim"
+" All possible highlighters
+"   'virtual',
+"   'sign_column',
+"   'background',
+"   'backgroundfull',
+"   'foreground',
+"   'foregroundfull'
+let g:Hexokinase_highlighters = ['virtual']
+
 
 
 " ____________ Cursor Settings ___________
@@ -65,10 +75,12 @@ nnoremap <C-q> q:
 nnoremap q :q<CR>
 nnoremap Q :wq<CR>
 nnoremap <leader>g :Goyo<CR>
+nnoremap <leader>c :HexokinaseToggle<CR>
 
 inoremap " ""<left>
-inoremap ' ''<left>
 inoremap ( ()<left>
+inoremap < <><left>
+inoremap ' ''<left>
 inoremap [ []<left>
 inoremap { {}<left>
 inoremap {<CR> {<CR>}<ESC>O
