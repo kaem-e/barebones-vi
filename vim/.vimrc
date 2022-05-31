@@ -4,7 +4,6 @@
 set number "line numbers"
 set title "sets terminal titlebar as whatever file is open"
 set relativenumber "relative line numbers"
-set termguicolors "colorizes the terminal"
 set autoindent "autoindents"
 set tabstop=3 "sets the tabstop to 3"
 " set softtabstop=3 "sets the soft tabstop to 3"
@@ -22,6 +21,11 @@ set mouse=a "mouse support, kinda defeats the whole point but whatever"
 set background=dark "Dark Background by default just like my soul"
 set belloff=all "Stupid fucking bell sound please kys"
 
+"Terminal Colourization idk"
+let &t_8f = "\e[38;2;%lu;%lu;%lum" " sets foreground color (ANSI, true-color mode)
+let &t_8b = "\e[48;2;%lu;%lu;%lum" " sets background color (ANSI, true-color mode)
+set termguicolors "colorizes the terminal"
+
 "enables syntax highlighting"
 syntax enable 
 
@@ -30,16 +34,6 @@ colorscheme NeoSolarized-Mod
 
 "use system clipboard"
 set clipboard+=unnamedplus
-
-"Hexokinase colour highlighting inside vim"
-" All possible highlighters
-"   'virtual',
-"   'sign_column',
-"   'background',
-"   'backgroundfull',
-"   'foreground',
-"   'foregroundfull'
-let g:Hexokinase_highlighters = ['virtual']
 
 
 
