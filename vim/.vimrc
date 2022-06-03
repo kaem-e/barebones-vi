@@ -18,23 +18,25 @@ set incsearch "incremental search"
 set scrolloff=3 "sets the scroll offset to 3"
 set showmatch "highlights matching brackets"
 set mouse=a "mouse support, kinda defeats the whole point but whatever"
-set background=dark "Dark Background by default just like my soul"
-set belloff=all "Stupid fucking bell sound please kys"
+set nocompatible "uses .vimrc present or smth idk"
+set background=dark "dark background by default just like my soul"
+set belloff=all "stupid fucking bell sound please kys"
 
-"Terminal Colourization idk"
-let &t_8f = "\e[38;2;%lu;%lu;%lum" " sets foreground color (ANSI, true-color mode)
-let &t_8b = "\e[48;2;%lu;%lu;%lum" " sets background color (ANSI, true-color mode)
-set termguicolors "colorizes the terminal"
+"terminal colourization idk"
+"set termguicolors "colorizes the terminal"
 
 "enables syntax highlighting"
 syntax enable 
 
+
+let g:neosolarized_contrast = "high"
+let g:neosolarized_visibility = "high"
 "sets NeoSolarized-mod as the Colorscheme
-colorscheme NeoSolarized-Mod
+colorscheme NeoSolarized
 
 "use system clipboard"
-set clipboard+=unnamedplus
-
+"set clipboard+=unnamedplus
+set clipboard=unnamed
 
 
 " ____________ Cursor Settings ___________
@@ -65,8 +67,8 @@ let &t_EI.="\e[3 q" "EI = NORMAL mode (ELSE)
 let mapleader=" "
 
 nnoremap <leader>rv :source ~/.vimrc<CR> 
-nnoremap <C-q> q:
 nnoremap q :q<CR>
+nnoremap <C-q> q:
 nnoremap Q :wq<CR>
 nnoremap <leader>g :Goyo<CR>
 nnoremap <leader>c :HexokinaseToggle<CR>
@@ -79,3 +81,4 @@ inoremap [ []<left>
 inoremap { {}<left>
 inoremap {<CR> {<CR>}<ESC>O
 inoremap {;<CR> {<CR>};<ESC>O
+

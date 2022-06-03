@@ -134,7 +134,7 @@ hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let colors_name = "NeoSolarized"
+let colors_name = "NeoSolarized-Mod"
 
 "}}}
 
@@ -143,8 +143,7 @@ let colors_name = "NeoSolarized"
 "
 " Set gui and terminal at the same time.
     let s:gui_mode       = "gui"
-	 "let s:gui_base03      = "#002b36"
-    let s:gui_base03      = "#001921"
+	 let s:gui_base03      = "#002029"
     let s:gui_base02      = "#073642"
     let s:gui_base01      = "#586e75"
     let s:gui_base00      = "#657b83"
