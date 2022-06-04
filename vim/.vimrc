@@ -70,6 +70,7 @@ nnoremap <leader>rv :source ~/.vimrc<CR>
 nnoremap q :q<CR>
 nnoremap <C-q> q:
 nnoremap Q :wq<CR>
+nnoremap W :w<CR>
 nnoremap <leader>g :Goyo<CR>
 nnoremap <leader>c :HexokinaseToggle<CR>
 
